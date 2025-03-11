@@ -57,12 +57,15 @@ persona = {
 
 # Imprimir una cadena de texto
 print("Hola mundo!")
+
 # Imprimir una variable
 nombre_propio2 = "Ana"
 print(nombre_propio2)
+
 # Imprimir una expresión
 suma = 1 + 2
 print(suma)
+
 # Imprimir múltiples objetos
 print("El resultado es:", suma, "y el nombre es:", nombre_propio2)
 
