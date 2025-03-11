@@ -86,5 +86,22 @@ print(f"Hola, me llamo {nombre} y tengo {edad} años.")
 # Sin F -->
 print("Hola, me llamo " + str(nombre) + " y tengo " + str(apellido) + "años")
 
-#❀┉┅━━━━━━━ Función input()  ━━━━━━━┅┉❀
 
+#❀┉┅━━━━━━━ Función input()  ━━━━━━━┅┉❀
+# obtener información que seintroduzca por el teclado.
+#Esta funcion siempre devuelve STRING aun si la persona introduce numeros 
+prompt = "Texto"
+
+entrada = input(prompt)
+
+
+##❀┉┅━━━━━━━ Argumentos de la función input()  ━━━━━━━┅┉❀
+# prompt: Es una cadena de texto que se muestra al usuario antes de que introduzca la información
+# Pedir el nombre del usuario
+nombre = input("¿Cómo te llamas? ")
+print(f"Hola, {nombre}!")
+# Solicitar dos números y sumarlos
+num1 = int(input("Introduce el primer número: "))
+num2 = int(input("Introduce el segundo número: "))
+suma = num1 + num2
+print(f"La suma es: {suma}")
