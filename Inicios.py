@@ -1,7 +1,9 @@
 
 #❀┉┅━━━━━━━ Sangrado ━━━━━━━┅┉❀
 #(identar):Es una forma de organizar visualmente el código para facilitar su lectura:
-if condition:
+edad = 10
+
+if edad == 10:
     print("Verdadero")
 else:
     print("Falso")
@@ -25,7 +27,7 @@ nombre_completo = "Juan Pérez"
 #❀┉┅━━━━━━━Tipos de datos━━━━━━━┅┉❀
 
 # Cadenas " " ' ' 
-nombre = "Skarlet"
+nombre_propio = "Skarlet"
 apellido = 'Castillo'
 
 
@@ -52,14 +54,37 @@ persona = {
 #❀┉┅━━━━━━━ Función print()  ━━━━━━━┅┉❀
 #mostrar información en la pantalla 
 #Parametros: cadenas de texto, variables, expresion, etc..
-# Imprimir una cadena de texto
 
+# Imprimir una cadena de texto
 print("Hola mundo!")
 # Imprimir una variable
-nombre = "Ana"
-print(nombre)
+nombre_propio2 = "Ana"
+print(nombre_propio2)
 # Imprimir una expresión
 suma = 1 + 2
 print(suma)
 # Imprimir múltiples objetos
-print("El resultado es:", suma, "y el nombre es:", nombre)
+print("El resultado es:", suma, "y el nombre es:", nombre_propio2)
+
+
+##❀┉┅━━━━━━━ Argumentos de función print()  ━━━━━━━┅┉❀
+
+# Sep: Separa los objetos con el valor entre parentesis que asignemos (por defecto es un espacio)
+print("a", "b", "c", sep=" - ")
+
+# End: Agrega caracteres al final de una salida e imprime en la misma linea el siguiente print
+print("línea 1", end=", Contenido agregado,  ")
+print("línea 2")
+
+# F: Formateo de cadenas, ayuda a que sea mas sencillo imprimir sin convertir a str o int
+nombre = "Skarlet"
+edad = 25
+
+# Con F -->
+print(f"Hola, me llamo {nombre} y tengo {edad} años.")
+
+# Sin F -->
+print("Hola, me llamo " + str(nombre) + " y tengo " + str(apellido) + "años")
+
+#❀┉┅━━━━━━━ Función input()  ━━━━━━━┅┉❀
+
